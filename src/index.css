@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'ReginaBlack';
+  src: url('/public/font/ReginaBlack-Solid.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bg-bottom-center {
+  background-position: center bottom;
+}
+
+@keyframes cloudFloat {
+  0% {
+    transform: translateX(30%);   /* start slightly right */
+  }
+  50% {
+    transform: translateX(-30%);  /* move left */
+  }
+  100% {
+    transform: translateX(30%);   /* move right again */
+  }
+}
+
+.cloud-move {
+  animation: cloudFloat 60s ease-in-out infinite;
+}
+
+@keyframes cloudFloatReverse {
+  0% { transform: translateX(-30%); }  /* Start left */
+  50% { transform: translateX(30%); }  /* Move right */
+  100% { transform: translateX(-30%); } /* Move left again */
+}
+
+.cloud-move-reverse {
+  animation: cloudFloatReverse 60s ease-in-out infinite;
+}
+
+
+
+
