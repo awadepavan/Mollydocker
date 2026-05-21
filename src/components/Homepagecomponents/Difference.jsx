@@ -23,28 +23,28 @@ const Difference = () => {
       <div className="relative w-full min-h-screen py-20 flex items-center justify-center bg-cover bg-bottom overflow-visible">
 
         {/* LEFT STACKED IMAGES - visible on all screens */}
-        <div className="absolute left-0 top-0 h-full flex flex-col justify-start gap-2 sm:gap-6 pl-1 sm:pl-4 z-40 overflow-visible w-[20%] sm:w-[25%] lg:w-[30%]">
+        <div className="absolute left-0 top-0 h-full flex flex-col justify-start gap-2 sm:gap-6 pl-1 sm:pl-4 z-40 overflow-visible w-[32%] sm:w-[28%] lg:w-[30%]">
           <img
             src="/Images/Homepage/figure-left-koala.webp"
             alt="koala"
-            className="relative w-[150px] sm:w-[200px] lg:w-[250px] -translate-x-1/2 ml-10 sm:ml-20 lg:ml-24 -mt-[30%] lg:-mt-[50%] z-50"
+            className="relative w-[180px] sm:w-[200px] lg:w-[250px] -translate-x-1/2 ml-10 sm:ml-20 lg:ml-24 -mt-[30%] lg:-mt-[50%] z-50"
           />
            <img
             src="/Images/Homepage/figure-left-branches-gum-tree.webp"
             alt="koala"
-            className="relative w-[100px] sm:w-[150px] lg:w-[200px] -translate-x-1/2 ml-8 sm:ml-16 lg:ml-20 -mt-[20%] lg:-mt-[50%] z-50"
+            className="relative w-[130px] sm:w-[150px] lg:w-[200px] -translate-x-1/2 ml-8 sm:ml-16 lg:ml-20 -mt-[20%] lg:-mt-[50%] z-50"
           />
 
           <img
             src="/Images/Homepage/figure-left-flower-white-brown.webp"
             alt="flower"
-            className="w-[100px] sm:w-[150px] lg:w-[200px] -translate-x-1/2 ml-10 sm:ml-16 lg:ml-20"
+            className="w-[130px] sm:w-[150px] lg:w-[200px] -translate-x-1/2 ml-10 sm:ml-16 lg:ml-20"
           />
 
           <img
             src="/Images/Homepage/figure-left-flowers-red.webp"
             alt="flowers"
-            className="w-[100px] sm:w-[150px] lg:w-[200px] -translate-x-1/2 ml-8 sm:ml-16 lg:ml-20 -mt-10 lg:-mt-40"
+            className="w-[130px] sm:w-[150px] lg:w-[200px] -translate-x-1/2 ml-8 sm:ml-16 lg:ml-20 -mt-10 lg:-mt-40"
           />
         </div>
 
@@ -77,17 +77,17 @@ const Difference = () => {
         </div>
 
         {/* RIGHT STACKED IMAGES - visible on all screens */}
-        <div className="absolute right-0 top-0 h-full flex flex-col justify-center items-end gap-4 sm:gap-10 pr-1 sm:pr-4 z-40 overflow-visible w-[20%] sm:w-[25%] lg:w-[30%]">
+        <div className="absolute right-0 top-0 h-full flex flex-col justify-center items-end gap-4 sm:gap-10 pr-1 sm:pr-4 z-40 overflow-visible w-[32%] sm:w-[28%] lg:w-[30%]">
           <img
             src="/Images/Homepage/figure-right-acrobats.webp"
             alt="acrobats"
-            className="relative -mt-20 sm:-mt-40 mr-6 sm:mr-14 lg:mr-26 w-[150px] sm:w-[250px] lg:w-[350px] translate-x-1/3 z-50"
+            className="relative -mt-20 sm:-mt-40 mr-6 sm:mr-14 lg:mr-26 w-[190px] sm:w-[250px] lg:w-[350px] translate-x-1/3 z-50"
           />
 
           <img
             src="/Images/Homepage/figure-right-emu.webp"
             alt="emu"
-            className="w-[150px] sm:w-[250px] lg:w-[350px] translate-x-1/4 mt-20 sm:mt-50 lg:mt-80 mr-4 sm:mr-8 lg:mr-18"
+            className="w-[190px] sm:w-[250px] lg:w-[350px] translate-x-1/4 mt-20 sm:mt-50 lg:mt-80 mr-4 sm:mr-8 lg:mr-18"
           />
         </div>
       </div>

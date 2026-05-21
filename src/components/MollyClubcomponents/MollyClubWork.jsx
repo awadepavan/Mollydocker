@@ -102,7 +102,7 @@ const MollyClubWork = () => {
         <img
           src="/Images/Homepage/figure-peacock-chest.webp"
           alt="peacock"
-          className="w-[180px] sm:w-[350px] lg:w-[500px] xl:w-[750px] opacity-80"
+          className="w-[280px] sm:w-[350px] lg:w-[500px] xl:w-[750px] opacity-80"
         />
       </div>
     </section>

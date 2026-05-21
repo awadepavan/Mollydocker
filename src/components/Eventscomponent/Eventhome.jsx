@@ -5,7 +5,7 @@ const Eventhome = () => {
     <div className="bg-[#304421] h-screen w-full flex flex-col items-center justify-center relative text-[#ffdbba] font-serif">
 
       {/* Left Side Illustration - visible on all screens */}
-      <div className="absolute left-0 top-0 h-full flex flex-col justify-center gap-4 z-10 pointer-events-none select-none w-[100px] sm:w-[200px] md:w-[250px]">
+      <div className="absolute left-0 top-0 h-full flex flex-col justify-center gap-4 z-10 pointer-events-none select-none w-[160px] sm:w-[220px] md:w-[250px]">
         <img
           src="/Images/Homepage/figure-left-flower-red.webp"
           alt="red flower"
@@ -19,7 +19,7 @@ const Eventhome = () => {
       </div>
 
       {/* Right Side Illustration - visible on all screens */}
-      <div className="absolute right-0 top-0 h-full flex flex-col justify-center gap-4 z-10 pointer-events-none select-none w-[100px] sm:w-[200px] md:w-[250px]">
+      <div className="absolute right-0 top-0 h-full flex flex-col justify-center gap-4 z-10 pointer-events-none select-none w-[160px] sm:w-[220px] md:w-[250px]">
         <img
           src="/Images/Homepage/figure-right-parrot.webp"
           alt="parrot"

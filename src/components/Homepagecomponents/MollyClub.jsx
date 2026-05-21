@@ -7,22 +7,22 @@ const MollyClub = () => {
       <div className="relative w-full min-h-screen flex items-center justify-center bg-cover bg-bottom overflow-visible">
 
         {/* LEFT cheta IMAGES - visible on all screens */}
-        <div className="flex absolute left-0 top-1/4 lg:top-50 h-full flex-col justify-start gap-2 sm:gap-6 pl-1 sm:pl-4 z-40 overflow-visible w-[20%] sm:w-[25%] lg:w-[30%]">
+        <div className="flex absolute left-0 top-1/4 lg:top-50 h-full flex-col justify-start gap-2 sm:gap-6 pl-1 sm:pl-4 z-40 overflow-visible w-[32%] sm:w-[28%] lg:w-[30%]">
           <img
             src="/Images/Homepage/figure-left-leaves-euc-2.webp"
             alt="koala"
-            className="relative w-[150px] sm:w-[250px] lg:w-[350px] -translate-x-1/2 ml-10 sm:ml-24 lg:ml-34 -mt-[30%] lg:-mt-[50%] z-50"
+            className="relative w-[180px] sm:w-[250px] lg:w-[350px] -translate-x-1/2 ml-10 sm:ml-24 lg:ml-34 -mt-[30%] lg:-mt-[50%] z-50"
           />
            <img
             src="/Images/Homepage/figure-left-panther.webp"
             alt="koala"
-            className="relative w-[150px] sm:w-[250px] lg:w-[350px] -translate-x-1/2 ml-10 sm:ml-20 lg:ml-30 -mt-[30%] lg:-mt-[50%] z-50"
+            className="relative w-[180px] sm:w-[250px] lg:w-[350px] -translate-x-1/2 ml-10 sm:ml-20 lg:ml-30 -mt-[30%] lg:-mt-[50%] z-50"
           />
 
           <img
             src="/Images/Homepage/figure-left-leaves-2.webp"
             alt="flower"
-            className="w-[150px] sm:w-[250px] lg:w-[350px] -translate-x-1/2 ml-10 sm:ml-24 lg:ml-40 -mt-10 lg:-mt-50"
+            className="w-[180px] sm:w-[250px] lg:w-[350px] -translate-x-1/2 ml-10 sm:ml-24 lg:ml-40 -mt-10 lg:-mt-50"
           />
         </div>
 
@@ -47,11 +47,11 @@ const MollyClub = () => {
         </div>
 
         {/* RIGHT pecock IMAGES - visible on all screens */}
-        <div className="flex absolute right-0 top-0 h-full flex-col justify-center items-end gap-10 pr-1 sm:pr-4 z-40 overflow-visible w-[20%] sm:w-[25%] lg:w-[30%]">
+        <div className="flex absolute right-0 top-0 h-full flex-col justify-center items-end gap-10 pr-1 sm:pr-4 z-40 overflow-visible w-[32%] sm:w-[28%] lg:w-[30%]">
           <img
             src="/Images/Homepage/figure-peacock-chest.webp"
             alt="acrobats"
-            className="relative mt-[200px] sm:mt-[350px] lg:mt-[560px] mr-[50px] sm:mr-[200px] lg:mr-[350px] w-[180px] sm:w-[370px] lg:w-[750px] translate-x-1/3 z-50"
+            className="relative mt-[200px] sm:mt-[350px] lg:mt-[560px] mr-[50px] sm:mr-[200px] lg:mr-[350px] w-[260px] sm:w-[370px] lg:w-[750px] translate-x-1/3 z-50"
           />
         </div>
       </div>

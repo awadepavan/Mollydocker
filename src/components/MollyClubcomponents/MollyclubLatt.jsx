@@ -14,7 +14,7 @@ const MollyclubLatt = () => {
       >
 
         {/* ---------------- LEFT STACKED IMAGES - visible on all screens ---------------- */}
-        <div className="absolute left-0 top-0 h-full flex flex-col justify-start gap-10 pl-1 sm:pl-4 z-40 overflow-visible w-[20%] sm:w-[25%] lg:w-[30%]">
+        <div className="absolute left-0 top-0 h-full flex flex-col justify-start gap-10 pl-1 sm:pl-4 z-40 overflow-visible w-[32%] sm:w-[28%] lg:w-[30%]">
 
           {/* TOAD (50% outside) */}
           <img
@@ -25,7 +25,7 @@ const MollyclubLatt = () => {
         </div>
 
         {/* ---------------- RIGHT STACKED IMAGES - visible on all screens ---------------- */}
-        <div className="absolute right-0 top-0 h-full flex flex-col justify-center items-end gap-6 pr-1 sm:pr-4 z-40 overflow-visible w-[20%] sm:w-[25%] lg:w-[30%]">
+        <div className="absolute right-0 top-0 h-full flex flex-col justify-center items-end gap-6 pr-1 sm:pr-4 z-40 overflow-visible w-[32%] sm:w-[28%] lg:w-[30%]">
 
           {/* PARROT */}
           <img
