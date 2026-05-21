@@ -7,33 +7,33 @@ const MollyClubhome = () => {
       <img
         src="/Images/Homepage/figure-left-leaves-euc-2.webp"
         alt="red flower"
-        className="absolute left-0 top-0 w-[300px]"
+        className="hidden lg:block absolute left-0 top-0 w-[300px]"
       />
       <img
         src="/Images/Homepage/figure-left-panther.webp"
         alt="toad"
-        className="absolute left-0 top-50 w-[350px] h-auto"
+        className="hidden lg:block absolute left-0 top-50 w-[350px] h-auto"
       />
 
        <img
         src="/Images/Homepage/figure-left-leaves-2.webp"
         alt="toad"
-        className="absolute left-0 top-60 w-[400px]"
+        className="hidden lg:block absolute left-0 top-60 w-[400px]"
       />
 
       {/* Center Text */}
       <div
-        className="text-center space-y-4 px-4 w-3xl ml-10 -mt-[30px]"
+        className="text-center space-y-4 px-6 w-full max-w-2xl z-20"
         style={{ fontFamily: "ReginaBlack" }}
       >
-        <p className="text-lg text-[#f1904a]"  style={{ fontFamily: "ReginaBlack" }}>Join the Bold Yet Elegant</p>
-        <h1 className="text-[6rem] text-[#f1904a] uppercase font-extrabold leading-none"  style={{ fontFamily: "ReginaBlack" }}> MollyClub</h1>
-        <p className="text-[#ffe9b7]"  style={{ fontFamily: "ReginaBlack" }}>
+        <p className="text-base md:text-lg text-[#f1904a]"  style={{ fontFamily: "ReginaBlack" }}>Join the Bold Yet Elegant</p>
+        <h1 className="text-4xl sm:text-7xl lg:text-[6rem] text-[#f1904a] uppercase font-extrabold leading-none"  style={{ fontFamily: "ReginaBlack" }}> MollyClub</h1>
+        <p className="text-[#ffe9b7] text-sm md:text-base"  style={{ fontFamily: "ReginaBlack" }}>
           6 juicy wines, delivered to your door 3 times a year plus 20% loyalty
           pricing all year round!
         </p>
 
-        <div className="flex justify-center gap-12 mt-4 text-xl font-bold uppercase underline cursor-pointer text-[#f1904a]"  style={{ fontFamily: "ReginaBlack" }}>
+        <div className="flex flex-wrap justify-center gap-6 sm:gap-12 mt-4 text-base sm:text-xl font-bold uppercase underline cursor-pointer text-[#f1904a]"  style={{ fontFamily: "ReginaBlack" }}>
           <span  style={{ fontFamily: "ReginaBlack" }}>How it Works</span>
           <span  style={{ fontFamily: "ReginaBlack" }}>Benefits</span>
           <span  style={{ fontFamily: "ReginaBlack" }}>Account Login</span>

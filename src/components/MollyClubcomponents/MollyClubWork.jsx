@@ -2,13 +2,13 @@ import React from "react";
 
 const MollyClubWork = () => {
   return (
-    <section className="w-full  h-[1400px] bg-[#8d1a3a] flex justify-center items-center py-20 px-4">
+    <section className="w-full min-h-screen h-auto bg-[#8d1a3a] flex flex-col justify-center items-center py-20 px-4 relative overflow-hidden">
       {/* INNER CONTAINER */}
-      <div className="absolute  bg-[#670d25] w-full max-w-5xl rounded-3xl p-12 text-center shadow-xl">
+      <div className="relative bg-[#670d25] w-full max-w-5xl rounded-3xl p-6 md:p-12 text-center shadow-xl z-20">
 
         {/* HEADING */}
         <h1
-          className="text-[60px] text-[#FDBF63] font-bold mb-4"
+          className="text-4xl sm:text-5xl lg:text-[60px] text-[#FDBF63] font-bold mb-4"
           style={{ fontFamily: "ReginaBlack" }}
         >
           HOW IT WORKS
@@ -21,21 +21,21 @@ const MollyClubWork = () => {
 
         {/* MAIN IMAGE */}
         <div className="mt-10 flex justify-center">
-          <div className="border-4 border-[#FDBF63] rounded-md p-1">
+          <div className="border-4 border-[#FDBF63] rounded-md p-1 w-full max-w-[400px]">
             <img
               src="/Images/Homepage/pouring-red-wine.avif" 
               alt="how it works"
-              className="w-[500px] h-[500px] rounded"
+              className="w-full aspect-square object-cover rounded"
             />
           </div>
         </div>
 
         {/* ICONS ROW */}
-        <div className="flex justify-center items-start gap-10 mt-12 flex-wrap">
+        <div className="flex justify-center items-start gap-6 md:gap-10 mt-12 flex-wrap">
 
           {/* 1 — HOW MANY WINES */}
-          <div className="flex flex-col items-center w-40">
-            <img src="/Images/Homepage/MD-Club-Bottles-Icon-Cream.webp" alt="" className="w-32 mb-3" />
+          <div className="flex flex-col items-center w-36 sm:w-40">
+            <img src="/Images/Homepage/MD-Club-Bottles-Icon-Cream.webp" alt="" className="w-24 sm:w-32 mb-3" />
             <h3 className="text-[#FDBF63] font-bold text-sm">
               HOW MANY <br/> WINES?
             </h3>
@@ -44,11 +44,11 @@ const MollyClubWork = () => {
             </p>
           </div>
 
-          <span className="text-[#FDBF63] text-3xl mt-6">›</span>
+          <span className="hidden lg:inline text-[#FDBF63] text-3xl mt-6">›</span>
 
           {/* 2 — CUSTOMIZE YOUR WINES */}
-          <div className="flex flex-col items-center w-40">
-            <img src="/Images/Homepage/MD-Club-BottleWine-Icon-Cream.webp" alt="" className="w-32 mb-3" />
+          <div className="flex flex-col items-center w-36 sm:w-40">
+            <img src="/Images/Homepage/MD-Club-BottleWine-Icon-Cream.webp" alt="" className="w-24 sm:w-32 mb-3" />
             <h3 className="text-[#FDBF63] font-bold text-sm">
               CUSTOMIZE YOUR WINES
             </h3>
@@ -57,11 +57,11 @@ const MollyClubWork = () => {
             </p>
           </div>
 
-          <span className="text-[#FDBF63] text-3xl mt-6">›</span>
+          <span className="hidden lg:inline text-[#FDBF63] text-3xl mt-6">›</span>
 
           {/* 3 — SHIPPED 3X PER YEAR */}
-          <div className="flex flex-col items-center w-40">
-            <img src="/Images/Homepage/MD-Club-Box-Icon-Cream.webp" alt="" className="w-32 mb-3" />
+          <div className="flex flex-col items-center w-36 sm:w-40">
+            <img src="/Images/Homepage/MD-Club-Box-Icon-Cream.webp" alt="" className="w-24 sm:w-32 mb-3" />
             <h3 className="text-[#FDBF63] font-bold text-sm">
               SHIPPED 3X <br/> PER YEAR
             </h3>
@@ -70,11 +70,11 @@ const MollyClubWork = () => {
             </p>
           </div>
 
-          <span className="text-[#FDBF63] text-3xl mt-6">›</span>
+          <span className="hidden lg:inline text-[#FDBF63] text-3xl mt-6">›</span>
 
           {/* 4 — GATHER LEFT HANDSHAKES */}
-          <div className="flex flex-col items-center w-40">
-            <img src="/Images/Homepage/MD-Club-Hands-Icon-Cream.webp" alt="" className="w-32 mb-3" />
+          <div className="flex flex-col items-center w-36 sm:w-40">
+            <img src="/Images/Homepage/MD-Club-Hands-Icon-Cream.webp" alt="" className="w-24 sm:w-32 mb-3" />
             <h3 className="text-[#FDBF63] font-bold text-sm">
               GATHER LEFT HANDSHAKES
             </h3>
@@ -96,12 +96,14 @@ const MollyClubWork = () => {
           </button>
         </div>
       </div>
-      <div className="relative mt-[500px] ml-[450px] z-30">
-          <img
-            src="/Images/Homepage/figure-peacock-chest.webp"
-            alt="acrobats"
-            className="relative mt-[560px] mr-[350px] w-[750px] translate-x-1/3 z-50"
-          />
+
+      {/* Peacock decoration hidden on mobile, placed absolutely on large screens */}
+      <div className="hidden lg:block absolute bottom-0 right-0 z-10 translate-x-1/4 translate-y-1/4">
+        <img
+          src="/Images/Homepage/figure-peacock-chest.webp"
+          alt="peacock"
+          className="w-[500px] xl:w-[750px] opacity-80"
+        />
       </div>
     </section>
   );

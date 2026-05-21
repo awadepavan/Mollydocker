@@ -23,7 +23,7 @@ const SipIt = () => {
 
           {/* SIP IT (yellow box background) */}
           <span
-            className="text-[32px] sm:text-[40px] lg:text-[80px] leading-none font-bold text-[#C93345] bg-[#FEBE10] px-4 sm:px-5 py-1 sm:py-2"
+            className="text-[28px] sm:text-[40px] lg:text-[80px] leading-none font-bold text-[#C93345] bg-[#FEBE10] px-3 sm:px-5 py-1 sm:py-2"
             style={{ fontFamily: "ReginaBlack" }}
           >
             SIP IT
@@ -31,7 +31,7 @@ const SipIt = () => {
 
           {/* FORWARD */}
           <span
-            className="text-[35px] sm:text-[45px] lg:text-[90px] leading-none font-bold ml-0 sm:ml-4"
+            className="text-[30px] sm:text-[45px] lg:text-[90px] leading-none font-bold"
             style={{ fontFamily: "ReginaBlack" }}
           >
             FORWARD

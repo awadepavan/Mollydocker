@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="w-full bg-[#F4B816] pt-20 pb-10 relative" style={{ fontFamily: "ReginaBlack" }}>
 
       {/* TOP CONTENT */}
-      <div className="lg:max-w-[1400px] mx-auto px-10 grid  grid-cols-2 md:grid-cols-4 gap-16">
+      <div className="lg:max-w-[1400px] mx-auto px-6 md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-16">
 
         {/* LOGO + ADDRESS */}
         <div>
@@ -74,19 +74,19 @@ const Footer = () => {
       </div>
 
       {/* SUBSCRIBE SECTION */}
-      <div className="lg:max-w-[1400px] mx-auto px-[100px] pt-20 lg:px-[400px] " style={{ fontFamily: "ReginaBlack" }}>
-        <h3 className="text-[#C93345] font-bold text-2xl mb-4" style={{ fontFamily: "ReginaBlack" }}>
+      <div className="max-w-2xl mx-auto px-6 md:px-10 pt-20" style={{ fontFamily: "ReginaBlack" }}>
+        <h3 className="text-[#C93345] font-bold text-xl md:text-2xl mb-4 text-center md:text-left" style={{ fontFamily: "ReginaBlack" }}>
           SUBSCRIBE TO OUR MAILING LIST
         </h3>
 
-        <div className="flex flex-col md:flex-row gap-4 " style={{ fontFamily: "ReginaBlack" }}>
+        <div className="flex flex-col md:flex-row gap-4 items-center justify-center md:justify-start" style={{ fontFamily: "ReginaBlack" }}>
           <input
             type="email"
             placeholder="Email *"
-            className="border border-[#C93345] p-3 w-full md:w-[450px] focus:outline-none"
+            className="border border-[#C93345] p-3 w-full focus:outline-none bg-white/50 text-[#C93345] placeholder-[#C93345]/60"
           />
 
-          <button className="bg-[#DE4B3E] text-white font-bold px-8 py-3 rounded-full" style={{ fontFamily: "ReginaBlack" }}>
+          <button className="bg-[#DE4B3E] text-white font-bold px-8 py-3 rounded-full w-full md:w-auto shrink-0 hover:bg-[#c93f34] transition-colors" style={{ fontFamily: "ReginaBlack" }}>
             SUBSCRIBE
           </button>
         </div>

@@ -5,8 +5,8 @@ const Herosection = () => {
   return (
     <div>
       <div className="relative bg-[url('/Images/Homepage/home-hero.png')] h-[1000px] w-full bg-cover bg-bottom-center flex items-center justify-center overflow-hidden z-30">
-        {/* Left side images */}
-        <div className="absolute left-0 top-0 w-[30%] md:w-[30%] h-full flex flex-col items-start justify-start gap-4 pl-4">
+        {/* Left side images - hidden on mobile/tablet */}
+        <div className="hidden lg:flex absolute left-0 top-0 w-[30%] h-full flex-col items-start justify-start gap-4 pl-4">
           <img
             className=" leftImg w-[99%] lg:w-[80%] lg:h-96 object-contain -ml-10  "
             src="/Images/Homepage/home-hero-left-euc-top-1.webp"
@@ -30,17 +30,17 @@ const Herosection = () => {
         </div>
 
         {/* Center text */}
-        <div className="relative z-10 w-[70%] flex items-center justify-center -mt-[300px]">
+        <div className="relative z-10 w-full max-w-3xl px-6 lg:w-[70%] flex items-center justify-center -mt-20 lg:-mt-[300px]">
           <h1
-            className=" heroTitle text-[#FEBE10] font-bold text-6xl mg:text-7xl  lg:text-8xl   text-center leading-tight"
+            className=" heroTitle text-[#FEBE10] font-bold text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-center leading-tight"
             style={{ fontFamily: "ReginaBlack" }}
           >
             WHERE WINE GOES <br /> TO HAVE FUN
           </h1>
         </div>
 
-        {/* Right side images — stacked vertically */}
-        <div className="absolute right-0 top-0 w-[30%] h-full flex flex-col items-end justify-center gap-8 pr-4">
+        {/* Right side images — stacked vertically - hidden on mobile/tablet */}
+        <div className="hidden lg:flex absolute right-0 top-0 w-[30%] h-full flex-col items-end justify-center gap-8 pr-4">
           <img
             className=" rightImg  w-[90%] h-96 object-contain mt-0 -mr-[29%]"
             src="/Images/Homepage/home-hero-right-rainbow-lorakeet.webp"

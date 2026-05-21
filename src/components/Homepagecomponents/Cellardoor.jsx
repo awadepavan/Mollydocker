@@ -10,33 +10,32 @@ const Cellardoor = () => {
       >
         {/* MAP + TEXT */}
         <div className="
-          absolute flex flex-col sm:flex-row items-center justify-center 
-          h-auto sm:h-[20%] 
-          w-[250px] sm:w-[400px] lg:w-[600px]
-          mt-10 sm:mt-30 mb-10 sm:mb-60 
+          absolute flex flex-col md:flex-row items-center justify-center 
+          gap-6 md:gap-10
+          w-full max-w-4xl px-6
+          mt-16 md:mt-24
           left-1/2 transform -translate-x-1/2 
           z-30
         ">
           {/* MAP */}
           <img
             src="/Images/Homepage/home-visit-australia-map.webp"
-            alt=""
-            className="w-[180px] hidden lg:block sm:w-auto sm:-ml-96 mt-4 sm:mt-50"
+            alt="Australia Map"
+            className="w-[120px] md:w-[180px] object-contain"
           />
 
           {/* TEXT */}
           <div
-            className="mt-4 sm:mt-20 sm:ml-6 lg:-ml-16 text-center sm:text-left"
+            className="text-center md:text-left"
             style={{ fontFamily: "ReginaBlack" }}
           >
-            <h3 className="text-sm sm:text-lg lg:text-xl text-[#E2451f] sm:-ml-78 lg:-ml-96"  style={{ fontFamily: "ReginaBlack" }}>
+            <h3 className="text-xs sm:text-base lg:text-lg text-[#E2451f]"  style={{ fontFamily: "ReginaBlack" }}>
               McLaren Vale, South Australia
             </h3>
 
             <h1 className="
-              text-3xl sm:text-5xl lg:text-7xl 
-              text-[#E2451f] 
-              -ml-0 sm:-ml-[300px] lg:-ml-[450px]
+              text-4xl sm:text-6xl lg:text-7xl 
+              text-[#E2451f] font-bold mt-1
             "  style={{ fontFamily: "ReginaBlack" }}>
               Cellar Door
             </h1>
@@ -44,20 +43,20 @@ const Cellardoor = () => {
         </div>
 
         {/* LAND + KANGAROO */}
-        <div className="pt-60 sm:pt-96 lg:pt-28">
+        <div className="pt-80 md:pt-96 lg:pt-28">
           <div
             className="
               bg-[url('/Images/Homepage/home-visit-background-land-1.webp')]
-              h-[50vh] sm:h-[99%] lg:h-[70%]
+              h-[50vh] md:h-[60vh] lg:h-[70vh]
               w-full bg-cover bg-center 
               flex justify-end items-end 
               z-20 overflow-visible
             "
           >
             <img
-              className="w-[50%] sm:w-[30%] h-auto sm:h-[90%] mt-10 sm:mt-30"
+              className="w-[50%] sm:w-[30%] h-auto max-h-[80%] mt-10"
               src="/Images/Homepage/figure-right-kangaroo-bush.webp"
-              alt=""
+              alt="Kangaroo"
             />
           </div>
         </div>

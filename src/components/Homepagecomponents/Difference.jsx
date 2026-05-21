@@ -20,10 +20,10 @@ const Difference = () => {
       </div>
 
       {/* MAIN SECTION */}
-      <div className="relative w-full min-h-screen flex items-center justify-center bg-cover bg-bottom overflow-visible">
+      <div className="relative w-full min-h-screen py-20 flex items-center justify-center bg-cover bg-bottom overflow-visible">
 
-        {/* LEFT STACKED IMAGES */}
-        <div className="absolute left-0 top-0 h-full flex flex-col justify-start gap-6 pl-4 z-40 overflow-visible">
+        {/* LEFT STACKED IMAGES - hidden on mobile/tablet */}
+        <div className="hidden lg:flex absolute left-0 top-0 h-full flex-col justify-start gap-6 pl-4 z-40 overflow-visible">
           <img
             src="/Images/Homepage/figure-left-koala.webp"
             alt="koala"
@@ -49,22 +49,21 @@ const Difference = () => {
         </div>
 
         {/* TEXT + ISLAND */}
-        <div className="relative flex flex-col items-center text-center w-[60%] z-30 mt-10" style={{ fontFamily: "ReginaBlack" }}>
+        <div className="relative flex flex-col items-center text-center w-full max-w-2xl px-6 lg:w-[60%] z-30 mt-10" style={{ fontFamily: "ReginaBlack" }}>
           <h4
-            className="uppercase tracking-widest mb-2 mt-20 text-[#C93345]"
-            
+            className="uppercase tracking-widest mb-2 mt-10 lg:mt-20 text-[#C93345] text-xs sm:text-sm"
           >
             THE MOLLYDOOKER
           </h4>
 
           <h1
-            className=" text-[50px] lg:text-[110px] font-bold text-[#C93345] -mt-6"
+            className="text-4xl sm:text-7xl lg:text-[110px] font-bold text-[#C93345] -mt-2 lg:-mt-6"
             style={{ fontFamily: "ReginaBlack" }}
           >
             DIFFERENCE
           </h1>
 
-          <p className=" text-sm lg:text-sm text-[#f96c7d] w-[70%] leading-relaxed mt-4">
+          <p className="text-xs sm:text-sm text-[#f96c7d] w-full md:w-[80%] lg:w-[70%] leading-relaxed mt-4">
             Our seriously fun, juicy wines are the result of what happens when
             you combine science, innovation and dedication to create wines with
             a difference.
@@ -73,12 +72,12 @@ const Difference = () => {
           <img
             src="/Images/Homepage/home-difference-island-2.webp"
             alt="island"
-            className="w-full mt-10"
+            className="w-full mt-10 max-w-[500px] lg:max-w-none"
           />
         </div>
 
-        {/* RIGHT STACKED IMAGES */}
-        <div className="absolute right-0 top-0 h-full flex flex-col justify-center items-end gap-10 pr-4 z-40 overflow-visible">
+        {/* RIGHT STACKED IMAGES - hidden on mobile/tablet */}
+        <div className="hidden lg:flex absolute right-0 top-0 h-full flex-col justify-center items-end gap-10 pr-4 z-40 overflow-visible">
           <img
             src="/Images/Homepage/figure-right-acrobats.webp"
             alt="acrobats"

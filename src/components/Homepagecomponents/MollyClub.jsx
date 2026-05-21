@@ -6,8 +6,8 @@ const MollyClub = () => {
         {/* MAIN SECTION */}
       <div className="relative w-full min-h-screen flex items-center justify-center bg-cover bg-bottom overflow-visible">
 
-        {/* LEFT cheta IMAGES */}
-        <div className="absolute left-0 top-50 h-full flex flex-col justify-start gap-6 pl-4 z-40 overflow-visible">
+        {/* LEFT cheta IMAGES - hidden on mobile/tablet */}
+        <div className="hidden lg:flex absolute left-0 top-50 h-full flex-col justify-start gap-6 pl-4 z-40 overflow-visible">
           <img
             src="/Images/Homepage/figure-left-leaves-euc-2.webp"
             alt="koala"
@@ -27,29 +27,27 @@ const MollyClub = () => {
         </div>
 
         {/* TEXT  */}
-        <div className="relative flex flex-col items-center text-center w-[60%] lg:w-[60%] z-30 mt-3 lg:mt-10" style={{ fontFamily: "ReginaBlack" }}>
+        <div className="relative flex flex-col items-center text-center w-full max-w-2xl px-6 lg:w-[60%] z-30 mt-3 lg:mt-10" style={{ fontFamily: "ReginaBlack" }}>
           <h4
-            className="uppercase tracking-widest mb-5 lg:mb-2 mt-52 text-[#f1904a]"
-            
+            className="uppercase tracking-widest mb-2 mt-20 lg:mt-52 text-[#f1904a] text-xs sm:text-sm"
           >
            Join the Bold Yet Elegant
           </h4>
 
           <h1
-            className=" text-[70px] lg:text-[110px] font-bold text-[#f1904a] -mt-10"
+            className="text-5xl sm:text-7xl lg:text-[110px] font-bold text-[#f1904a] mt-2"
             style={{ fontFamily: "ReginaBlack" }}
           >
             MollyClub
           </h1>
 
-          <p className="text-sm text-[#f1904a] w-[70%] leading-relaxed -mt-3 lg:-mt-6">
+          <p className="text-xs sm:text-sm text-[#f1904a] w-full md:w-[80%] lg:w-[70%] leading-relaxed mt-4">
           Six juicy wines delivered to your door, three times a year.
-
           </p>
         </div>
 
-        {/* RIGHT pecock IMAGES */}
-        <div className="absolute right-0 top-0 h-full flex flex-col justify-center items-end gap-10 pr-4 z-40 overflow-visible">
+        {/* RIGHT pecock IMAGES - hidden on mobile/tablet */}
+        <div className="hidden lg:flex absolute right-0 top-0 h-full flex-col justify-center items-end gap-10 pr-4 z-40 overflow-visible">
           <img
             src="/Images/Homepage/figure-peacock-chest.webp"
             alt="acrobats"
