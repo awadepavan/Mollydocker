@@ -3,23 +3,24 @@ import React from "react";
 const MollyClubhome = () => {
   return (
     <div className="bg-[#8d1a3a] h-screen w-full flex flex-col items-center justify-center relative text-[#ffdbba] font-serif">
-      {/* Left Side Illustration */}
-      <img
-        src="/Images/Homepage/figure-left-leaves-euc-2.webp"
-        alt="red flower"
-        className="hidden lg:block absolute left-0 top-0 w-[300px]"
-      />
-      <img
-        src="/Images/Homepage/figure-left-panther.webp"
-        alt="toad"
-        className="hidden lg:block absolute left-0 top-50 w-[350px] h-auto"
-      />
-
-       <img
-        src="/Images/Homepage/figure-left-leaves-2.webp"
-        alt="toad"
-        className="hidden lg:block absolute left-0 top-60 w-[400px]"
-      />
+      {/* Left Side Illustration - visible on all screens */}
+      <div className="absolute left-0 top-0 h-full flex flex-col justify-start gap-4 z-10 pointer-events-none select-none w-[120px] sm:w-[220px] md:w-[300px]">
+        <img
+          src="/Images/Homepage/figure-left-leaves-euc-2.webp"
+          alt="leaves"
+          className="w-full"
+        />
+        <img
+          src="/Images/Homepage/figure-left-panther.webp"
+          alt="panther"
+          className="w-full -mt-10 h-auto"
+        />
+        <img
+          src="/Images/Homepage/figure-left-leaves-2.webp"
+          alt="leaves"
+          className="w-full -mt-10"
+        />
+      </div>
 
       {/* Center Text */}
       <div

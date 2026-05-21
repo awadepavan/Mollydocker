@@ -97,12 +97,12 @@ const MollyClubWork = () => {
         </div>
       </div>
 
-      {/* Peacock decoration hidden on mobile, placed absolutely on large screens */}
-      <div className="hidden lg:block absolute bottom-0 right-0 z-10 translate-x-1/4 translate-y-1/4">
+      {/* Peacock decoration visible on all screens */}
+      <div className="absolute bottom-0 right-0 z-10 translate-x-1/4 translate-y-1/4 pointer-events-none select-none">
         <img
           src="/Images/Homepage/figure-peacock-chest.webp"
           alt="peacock"
-          className="w-[500px] xl:w-[750px] opacity-80"
+          className="w-[180px] sm:w-[350px] lg:w-[500px] xl:w-[750px] opacity-80"
         />
       </div>
     </section>

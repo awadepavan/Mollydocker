@@ -4,29 +4,33 @@ const Eventhome = () => {
   return (
     <div className="bg-[#304421] h-screen w-full flex flex-col items-center justify-center relative text-[#ffdbba] font-serif">
 
-      {/* Left Side Illustration */}
-      <img
-        src="/Images/Homepage/figure-left-flower-red.webp"
-        alt="red flower"
-        className="hidden lg:block absolute left-0 top-1/4 w-[250px]"
-      />
-      <img
-        src="/Images/Homepage/figure-left-toad.webp"
-        alt="toad"
-        className="hidden lg:block absolute left-0 top-1/2 w-[250px]"
-      />
+      {/* Left Side Illustration - visible on all screens */}
+      <div className="absolute left-0 top-0 h-full flex flex-col justify-center gap-4 z-10 pointer-events-none select-none w-[100px] sm:w-[200px] md:w-[250px]">
+        <img
+          src="/Images/Homepage/figure-left-flower-red.webp"
+          alt="red flower"
+          className="w-full"
+        />
+        <img
+          src="/Images/Homepage/figure-left-toad.webp"
+          alt="toad"
+          className="w-full"
+        />
+      </div>
 
-      {/* Right Side Illustration */}
-      <img
-        src="/Images/Homepage/figure-right-parrot.webp"
-        alt="parrot"
-        className="hidden lg:block absolute right-0 top-1/4 w-[250px]"
-      />
-      <img
-        src="/Images/Homepage/figure-right-flowers-blue.webp"
-        alt="blue flowers"
-        className="hidden lg:block absolute right-0 top-1/2 w-[250px] z-10"
-      />
+      {/* Right Side Illustration - visible on all screens */}
+      <div className="absolute right-0 top-0 h-full flex flex-col justify-center gap-4 z-10 pointer-events-none select-none w-[100px] sm:w-[200px] md:w-[250px]">
+        <img
+          src="/Images/Homepage/figure-right-parrot.webp"
+          alt="parrot"
+          className="w-full"
+        />
+        <img
+          src="/Images/Homepage/figure-right-flowers-blue.webp"
+          alt="blue flowers"
+          className="w-full"
+        />
+      </div>
 
       {/* Center Text */}
       <div className="text-center space-y-4 px-6 max-w-3xl z-20" style={{ fontFamily: "ReginaBlack" }}>

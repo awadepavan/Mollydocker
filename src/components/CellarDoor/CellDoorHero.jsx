@@ -8,25 +8,25 @@ const CellDoorHero = () => {
         className="bg-[url('/Images/Homepage/home-visit-background-sky-scaled.jpg')]
         min-h-screen w-full bg-cover bg-center relative flex flex-col justify-between overflow-hidden"
       >
-        {/* LEFT DECORATION LEAVES (Desktop only) */}
-        <div className="hidden lg:block absolute left-0 top-1/4 z-20 pointer-events-none select-none">
+        {/* LEFT DECORATION LEAVES (Top side, visible on mobile) */}
+        <div className="absolute left-0 top-0 z-20 pointer-events-none select-none flex flex-col items-start w-[140px] sm:w-[220px] md:w-[300px] xl:w-[400px]">
           <img
             src="/Images/Homepage/figure-left-leaves-euc-1.webp"
-            className="w-[300px] xl:w-[400px]"
+            className="w-full"
             alt=""
           />
           <img 
             src="/Images/Homepage/figure-left-leaves-curved.webp" 
-            className="w-[200px] xl:w-[250px] -mt-10 ml-10" 
+            className="w-[70%] -mt-6 sm:-mt-10 ml-4 sm:ml-10" 
             alt="" 
           />
         </div>
 
-        {/* RIGHT DECORATION LEAVES (Desktop only) */}
-        <div className="hidden lg:block absolute right-0 top-1/4 z-20 pointer-events-none select-none">
+        {/* RIGHT DECORATION LEAVES (Top side, visible on mobile) */}
+        <div className="absolute right-0 top-0 z-20 pointer-events-none select-none w-[120px] sm:w-[200px] md:w-[300px] xl:w-[400px]">
           <img
             src="/Images/Homepage/figure-right-leaves-euc.webp"
-            className="w-[300px] xl:w-[400px]"
+            className="w-full"
             alt=""
           />
         </div>

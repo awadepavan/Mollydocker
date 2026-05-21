@@ -13,32 +13,32 @@ const MollyclubLatt = () => {
         style={{ backgroundImage: "url('/Images/Homepage/events-cta-block-bg.webp')" }}
       >
 
-        {/* ---------------- LEFT STACKED IMAGES ---------------- */}
-        <div className="hidden lg:flex absolute left-0 top-0 h-full flex-col justify-start gap-10 pl-4 z-40 overflow-visible">
+        {/* ---------------- LEFT STACKED IMAGES - visible on all screens ---------------- */}
+        <div className="absolute left-0 top-0 h-full flex flex-col justify-start gap-10 pl-1 sm:pl-4 z-40 overflow-visible w-[20%] sm:w-[25%] lg:w-[30%]">
 
           {/* TOAD (50% outside) */}
           <img
             src="/Images/Homepage/figure-left-toad.webp"
             alt="toad"
-            className="relative w-[250px] -translate-x-1/2 ml-24 -mt-[25%] z-50"
+            className="relative w-[150%] -translate-x-1/2 ml-6 sm:ml-24 -mt-[25%] z-50"
           />
         </div>
 
-        {/* ---------------- RIGHT STACKED IMAGES ---------------- */}
-        <div className="hidden lg:flex absolute right-0 top-0 h-full flex-col justify-center items-end gap-6 pr-4 z-40 overflow-visible">
+        {/* ---------------- RIGHT STACKED IMAGES - visible on all screens ---------------- */}
+        <div className="absolute right-0 top-0 h-full flex flex-col justify-center items-end gap-6 pr-1 sm:pr-4 z-40 overflow-visible w-[20%] sm:w-[25%] lg:w-[30%]">
 
           {/* PARROT */}
           <img
             src="/Images/Homepage/figure-right-parrot.webp"
             alt="parrot"
-            className="relative w-[250px] translate-x-1/3 -mt-60 z-50"
+            className="relative w-[150%] translate-x-1/3 -mt-20 sm:-mt-60 z-50"
           />
 
           {/* BLUE FLOWERS */}
           <img
             src="/Images/Homepage/figure-right-flowers-blue.webp"
             alt="flowers"
-            className="relative w-[300px] translate-x-1/4 -mt-96 z-40 mr-14"
+            className="relative w-[180%] translate-x-1/4 -mt-24 sm:-mt-96 z-40 mr-4 sm:mr-14"
           />
         </div>
 
