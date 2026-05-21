@@ -4,7 +4,7 @@ const MollyClubhome = () => {
   return (
     <div className="bg-[#8d1a3a] h-screen w-full flex flex-col items-center justify-center relative text-[#ffdbba] font-serif">
       {/* Left Side Illustration - visible on all screens */}
-      <div className="absolute left-0 top-0 h-full flex flex-col justify-start gap-4 z-10 pointer-events-none select-none w-[180px] sm:w-[250px] md:w-[300px]">
+      <div className="absolute left-0 top-0 h-full flex flex-col justify-start gap-4 z-10 pointer-events-none select-none w-[220px] sm:w-[280px] md:w-[300px]">
         <img
           src="/Images/Homepage/figure-left-leaves-euc-2.webp"
           alt="leaves"

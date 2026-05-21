@@ -9,7 +9,7 @@ const CellDoorHero = () => {
         min-h-screen w-full bg-cover bg-center relative flex flex-col justify-between overflow-hidden"
       >
         {/* LEFT DECORATION LEAVES (Top side, visible on mobile) */}
-        <div className="absolute left-0 top-0 z-20 pointer-events-none select-none flex flex-col items-start w-[190px] sm:w-[250px] md:w-[300px] xl:w-[400px]">
+        <div className="absolute left-0 top-0 z-20 pointer-events-none select-none flex flex-col items-start w-[230px] sm:w-[250px] md:w-[300px] xl:w-[400px]">
           <img
             src="/Images/Homepage/figure-left-leaves-euc-1.webp"
             className="w-full"
@@ -23,7 +23,7 @@ const CellDoorHero = () => {
         </div>
 
         {/* RIGHT DECORATION LEAVES (Top side, visible on mobile) */}
-        <div className="absolute right-0 top-0 z-20 pointer-events-none select-none w-[170px] sm:w-[230px] md:w-[300px] xl:w-[400px]">
+        <div className="absolute right-0 top-0 z-20 pointer-events-none select-none w-[210px] sm:w-[230px] md:w-[300px] xl:w-[400px]">
           <img
             src="/Images/Homepage/figure-right-leaves-euc.webp"
             className="w-full"
